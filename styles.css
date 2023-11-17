@@ -33,15 +33,16 @@ button {
   border-radius: 20px 10px;
   margin: 0 auto;
   padding: 20px 5px;
-  background-color: #00f;
+  background-color: #fff;
+  color: #9595ec;
   transition: all 200ms ease-in-out;
   display: block;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
   font-size: 20px;
 }
 button:hover {
-  color: #00f;
-  background-color: #ececec;
+  color: #fff;
+  background-color: #9595ec;
   cursor: pointer;
 }
 a:link {
