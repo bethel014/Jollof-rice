@@ -5,79 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Bethel's kitchen</title>
-    <style>
-      body {
-        background: linear-gradient(
-          180.3deg,
-          rgb(221, 221, 221) 5.5%,
-          rgb(110, 136, 161) 90.2%
-        );
-        line-height: 25px;
-        margin: 30px;
-        font-family: sans-serif;
-      }
-      h1 {
-        text-align: center;
-        font-family: Georgia;
-        font-size: 40px;
-      }
-      h2 {
-        text-align: center;
-      }
-      p {
-        text-align: center;
-        font-size: 20px;
-        font-weight: lighter;
-      }
-
-      hr {
-        background-color: #ececec;
-        border-color: #ececec;
-        height: 2px;
-      }
-      button {
-        text-align: center;
-        border: 1px solid #000;
-        border-radius: 20px 10px;
-        margin: 0 auto;
-        padding: 20px 5px;
-        background-color: #00f;
-        transition: all 200ms ease-in-out;
-        display: block;
-        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
-        font-size: 20px;
-      }
-      button:hover {
-        color: #00f;
-        background-color: #ececec;
-        cursor: pointer;
-      }
-      a:link {
-        color: #800080;
-        text-decoration: none;
-      }
-      a:visited {
-        color: #00f;
-        text-decoration: none;
-      }
-      a:hover {
-        color: #ff0000;
-        text-decoration: underline;
-      }
-
-      .description {
-        text-align: center;
-        display: block;
-        font-size: 20px;
-      }
-      .img {
-        text-align: center;
-        display: block;
-        margin: 0 auto;
-        max-width: 100%;
-        border-radius: 10px;
-      }
-    </style>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <section>
@@ -172,34 +100,7 @@
 
     <button>Give us a feedback</button>
     <p>Page built by <a href="#about">Bethel Ochano</a></p>
-    <script>
-      function feedback() {
-        let name = prompt("what are your names?");
-        let ratings = prompt("Are you satisfied with our services ?");
-        if (ratings === "yes") {
-          alert(
-            "Thank you " +
-              " " +
-              name +
-              "!" +
-              " we are glad to have you here" +
-              "💝"
-          );
-        } else {
-          alert(
-            "Thank you " +
-              " " +
-              name +
-              "!" +
-              " we promise to do better next" +
-              "💝"
-          );
-        }
-      }
-
-      let button = document.querySelector("button");
-      button.addEventListener("click", feedback);
-    </script>
+    <script src="Js.js"></script>
     <span><a href="#">Back to top</a></span>
   </body>
 </html>
